@@ -49,6 +49,9 @@ playground.xcworkspace
 
 Carthage/Build/
 
+# Swift Package Manager specific temporary files
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
 # fastlane
 #
 # It is recommended to not store the screenshots in the git repo.
@@ -60,3 +63,4 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
