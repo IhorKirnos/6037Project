@@ -60,7 +60,7 @@ struct ChoosePlanView: View {
                         }
                         .padding(.horizontal, 24)
                         
-                        HStack(spacing: 4) {
+                        HStack(spacing: 8) {
                             Button(action: {
                             }) {
                                 Text("Terms of Use")
