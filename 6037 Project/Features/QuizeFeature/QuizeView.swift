@@ -98,9 +98,9 @@ struct QuizView: View {
             
             ScrollView(.vertical) {
                 let columns = [
-                    GridItem(.fixed(colorItemSize), spacing: spacing, alignment: .center),
-                    GridItem(.fixed(colorItemSize), spacing: spacing, alignment: .center),
-                    GridItem(.fixed(colorItemSize), spacing: spacing, alignment: .center)
+                    GridItem(.adaptive(minimum: colorItemSize), spacing: spacing, alignment: .center),
+                    GridItem(.adaptive(minimum: colorItemSize), spacing: spacing, alignment: .center),
+                    GridItem(.adaptive(minimum: colorItemSize), spacing: spacing, alignment: .center)
                 ]
                 LazyVGrid(columns: columns, spacing: spacing) {
                     ForEach(viewStore.quizData.colorPreferences) { colorPref in
